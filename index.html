@@ -10,12 +10,8 @@
 </head>
 
 <body style='margin: 0; overflow: hidden;'>
-    <!-- a-frame scene -->
     <a-scene vr-mode-ui="enabled: false;" renderer="logarithmicDepthBuffer: true;" embedded arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
-        <!-- a-nft is the anchor that defines an Image Tracking entity -->
-        <!-- on 'url' use the path to the Image Descriptors created before. -->
-        <!-- the path should end with the name without the extension e.g. if file is 'pinball.fset' the path should end with 'pinball' -->
-        <a-nft type="nft" url="./WebArTutorials/assets/coliseu/coliseu" smooth="true" smoothCount="10" smoothTolerance=".01" smoothThreshold="5">
+        <a-nft type="nft" url="./ARjs_ImageTracking/assets/coliseu/coliseu" smooth="true" smoothCount="10" smoothTolerance=".01" smoothThreshold="5">
             <!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
             <a-entity gltf-model="./assets/the-colosseum/scene.gltf" scale="0.1 0.1 0.1" position="0 0 150" />
         </a-nft>
