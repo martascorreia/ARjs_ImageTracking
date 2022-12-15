@@ -10,14 +10,9 @@
 </head>
 
 <body style='margin: 0; overflow: hidden;'>
-    <a-assets>
-        <a-asset-item id="model" src="../resources/LeePerrySmith.glb"></a-asset-item>
-        <img id="tex-image" src="../resources/Map-COL.jpg">
-    </a-assets>
-
     <a-scene vr-mode-ui="enabled: false;" renderer="logarithmicDepthBuffer: true;" embedded arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
         <a-nft samplehandler type="nft" url="./ARjs_ImageTracking/assets/coliseu/coliseu" smooth="true" smoothCount="10" smoothTolerance=".01" smoothThreshold="5">
-            <a-entity gltf-model="./assets/the-colosseum/scene.gltf" scale="0.1 0.1 0.1" position="0 500 0" rotation="-90 0 0" scale="50 50 50" visible="true" />
+            <a-entity gltf-model="./assets/the-colosseum/scene.gltf" position="0 1.25 -5" visible="true" />
         </a-nft>
         <a-entity camera></a-entity>
     </a-scene>
