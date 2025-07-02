@@ -7,3 +7,5 @@ To see this project working:
   1. access "https://martascorreia.github.io/ARjs_ImageTracking/";
   2. point the camera to this image of the Colosseum "https://github.com/martascorreia/ARjs_ImageTracking/blob/main/assets/coliseu.png";
 The statue of Venus de Milo should appear on top of the image.
+
+The file https://github.com/martascorreia/ARjs_ImageTracking/blob/main/arjs_naturalMarkers.gif shows a working example.
